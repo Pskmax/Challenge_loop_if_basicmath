@@ -20,7 +20,7 @@ int main()
 			c = c * c;
 			sumSD += c;
 		}
-		z = sumSD / n;
+		z = sumSD / (n-1);
 		SD = sqrt(z);
 	}
 	if (a > b)
@@ -38,7 +38,7 @@ int main()
 			c = c * c;
 			sumSD += c;
 		}
-		z = sumSD / n;
+		z = sumSD / (n-1);
 		SD = sqrt(z);
 	}
 	printf("\nAverage = %.2f", average);
